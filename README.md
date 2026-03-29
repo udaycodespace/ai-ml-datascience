@@ -1,117 +1,29 @@
-# AI/ML and Data Science Projects
+﻿# ai-ml-analytics
 
-Machine learning, data science, NLP, computer vision, and data visualization projects
-built across internships, coursework, and independent exploration.
+A structured collection of AI, machine learning, data engineering, and data analytics projects built across academic and professional work.
 
----
+## Structure
 
-## Projects
+### machine-learning
+Original ML systems built from scratch — decision systems, forecasting models, deep learning experiments, and NLP work.
 
-### anime-recommendation
-Content-based anime recommender using unsupervised learning. No user history needed — works purely on synopsis and genre similarity.
+- `decision-traceability` — Explainable AI system for tracking and auditing decision logic with full rationale capture
+- `sales-forecasting` — Advanced time series forecasting using Prophet and ARIMA with EDA and Plotly visualizations
+- `deep-learning` — Computer vision projects including YOLO-based object detection
+- `nlp` — Natural language processing work including CNN-based sentiment analysis
 
-| Detail | Info |
-|--------|------|
-| Stack | Python, K-Means, TF-IDF, NLP |
-| Built during | Edunet AI + Azure Internship |
-| Status | Code only |
-| Type | Original |
+### data-engineering
+Production-grade data pipeline and trust infrastructure projects.
 
----
+- `enterprise-data-trust` — Data lineage, audit trails, integrity checks, and session management for enterprise data systems
 
-### sales-forecasting
-Advanced sales forecasting with EDA, time series modeling, and interactive visualizations.
+### data-analytics
+Analytics, dashboards, and exploratory work across tools and datasets.
 
-| Detail | Info |
-|--------|------|
-| Stack | Python, Prophet, ARIMA, Plotly, Seaborn |
-| Status | Code only |
-| Type | Original |
+- `tableau/` — Tableau dashboard projects and business intelligence work
+- `notebooks/` — Jupyter notebooks for EDA, ML experiments, and program assignments
+- `sql/` — SQL reporting and query projects
+- `dashboards/` — Standalone dashboard projects
 
----
-
-### decision-traceability-audit-logging
-Responsible AI governance system with decision traceability and audit logging.
-
-| Detail | Info |
-|--------|------|
-| Stack | Python |
-| Status | Code only |
-| Type | Original |
-
----
-
-### enterprise-data-trust-risk-audit
-Layered enterprise platform with frozen security invariants and isolated domain logic.
-
-| Detail | Info |
-|--------|------|
-| Stack | Python |
-| Status | Code only |
-| Type | Original |
-
----
-
-### cosmetic-insights-tableau
-Data analytics project on cosmetics trends. Built solo for SmartInternz internship.
-
-| Detail | Info |
-|--------|------|
-| Stack | Tableau |
-| Status | Dashboard only |
-| Type | Original |
-
----
-
-### genz-educatewing-ai
-NLP and Computer Vision projects using Deep Learning.
-
-| Detail | Info |
-|--------|------|
-| Stack | Python, TensorFlow, Jupyter |
-| Status | Code only |
-| Type | Original |
-
----
-
-### aiml-sit2025
-AI/ML assignments and group projects from SIT2025 coursework.
-
-| Detail | Info |
-|--------|------|
-| Stack | Python, Jupyter |
-| Status | Code only |
-| Type | Coursework |
-
----
-
-### car-price-prediction
-Regression model predicting car prices from historical data and vehicle attributes.
-
-| Detail | Info |
-|--------|------|
-| Stack | Python, sklearn, Pandas |
-| Status | Code only |
-| Type | Forked + studied |
-
----
-
-### heart-attack-prediction
-Logistic regression to predict heart disease risk from clinical features. EDA and visualization included.
-
-| Detail | Info |
-|--------|------|
-| Stack | Python, sklearn, Seaborn |
-| Status | Code only |
-| Type | Forked + studied |
-
----
-
-### forest-fire-prediction
-Monitoring and prediction system for Algerian forest fires using satellite data.
-
-| Detail | Info |
-|--------|------|
-| Stack | Python, sklearn, Jupyter |
-| Status | Code only |
-| Type | Forked + studied |
+## Stack
+Python · Flask · React · PostgreSQL · Jupyter · Tableau · Prophet · ARIMA · YOLO · scikit-learn

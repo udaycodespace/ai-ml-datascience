@@ -1,0 +1,30 @@
+﻿# python
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# env files
+.env
+.env.local
+.env.*.local
+
+# db files
+*.db
+*.sqlite3
+
+# os
+.DS_Store
+Thumbs.db
